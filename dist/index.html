@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/logo.ico><script src=https://kit.fontawesome.com/a076d05399.js></script><title>منصة أ/عصام سمكة</title><style>@font-face {
+        font-family: "cairo-bold";
+        src: url("../src/assets/fonts/Cairo-Bold.ttf");
+      }
+      @font-face {
+        font-family: "cairo-regular";
+        src: url("../src/assets/fonts/Cairo-Regular.ttf");
+      }
+      body {
+        font-family: "cairo-regular" !important;
+        background-color: #ebebeb !important;
+
+      }
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+        height: 5px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #c4c4c4;
+        
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #6c727a; 
+        border-radius: 3px;
+        transition: 2s;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #535a64; 
+      }</style><link href=/css/app.fc1d4168.css rel=preload as=style><link href=/css/chunk-vendors.3b30c9c6.css rel=preload as=style><link href=/js/app.f12ca37b.js rel=preload as=script><link href=/js/chunk-vendors.9b1a30ab.js rel=preload as=script><link href=/css/chunk-vendors.3b30c9c6.css rel=stylesheet><link href=/css/app.fc1d4168.css rel=stylesheet></head><body oncontextmenu="return false"><noscript><strong>We're sorry but admin-panel doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.9b1a30ab.js></script><script src=/js/app.f12ca37b.js></script></body><script>// stop open menu when clicking r-click
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
+    document.onkeydown = function(e) {
+      if(event.keyCode == 123) {
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+      }
+      if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+      }
+    }
+
+
+    var element = new Image;
+            var devtoolsOpen = false;
+            element.__defineGetter__("id", function() {
+                devtoolsOpen = true; // This only executes when devtools is open.
+            });
+            setInterval(function() {
+                devtoolsOpen = false;
+                if (devtoolsOpen == true) {
+                } // else here if you like to see if dev tools are not open
+            }, 1000);</script></html>
