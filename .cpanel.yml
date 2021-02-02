@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/labsmmsw/sites/mressamsamaka.com/student
+    - /bin/cp * $DEPLOYPATH
